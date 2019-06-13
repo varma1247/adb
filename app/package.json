@@ -1,0 +1,37 @@
+{
+  "name": "get-started-node",
+  "main": "server.js",
+  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Cloud/get-started-node"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^3.0.2",
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant-quickstart": "^1.25.5",
+    "csv-parse": "^4.4.3",
+    "csvtojson": "^2.0.8",
+    "date-diff": "^0.2.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x",
+    "geo-tz": "^5.0.4",
+    "geolib": "^3.0.3",
+    "mongodb": "^3.0.10",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.1",
+    "tz-lookup": "^6.1.18",
+    "tzwhere": "^1.0.1"
+  },
+  "author": "IBM Corp",
+  "license": "Apache-2.0"
+}

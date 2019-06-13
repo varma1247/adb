@@ -1,0 +1,60 @@
+SDK for Node.js(TM) (node.js-6.17.0, buildpack-v3.26-20190313-1440)
+
+-----> IBM SDK for Node.js Buildpack v3.26-20190313-1440
+       Based on Cloud Foundry Node.js Buildpack v1.5.24
+
+-----> Creating runtime environment
+       
+       NPM_CONFIG_LOGLEVEL=error
+       NPM_CONFIG_PRODUCTION=true
+       NODE_ENV=production
+       NODE_MODULES_CACHE=true
+
+-----> Installing binaries
+       engines.node (package.json):  6.*
+       engines.npm (package.json):   unspecified (use default)
+       
+       Resolving node version 6.* via 'node-version-resolver'
+       Downloading and installing node 6.17.0...
+       Using default npm version: 3.10.10
+
+-----> Restoring cache
+       Loading 2 from cacheDirectories (default):
+       - node_modules
+       - bower_components (not cached - skipping)
+
+-----> Checking and configuring service extensions before installing dependencies
+
+-----> Building dependencies
+       Installing node modules (package.json)
+
+-----> Checking and configuring service extensions after installing dependencies
+
+-----> Installing App Management
+Checking for Dynatrace credentials
+No Dynatrace Service Found (service with substring dynatrace not found in VCAP_SERVICES)
+
+-----> Caching build
+       Clearing previous node cache
+       Saving 2 cacheDirectories (default):
+       - node_modules
+       - bower_components (nothing to cache)
+
+-----> Build succeeded!
+       ├── @cloudant/cloudant@3.0.2
+       ├── body-parser@1.19.0
+       ├── cfenv@1.0.4
+       ├── cloudant-quickstart@1.25.5
+       ├── csv-parse@4.4.3
+       ├── csvtojson@2.0.8
+       ├── date-diff@0.2.1
+       ├── dotenv@4.0.0
+       ├── express@4.15.5
+       ├── geo-tz@5.0.4
+       ├── geolib@3.0.3
+       ├── mongodb@3.2.7
+       ├── multer@1.4.1
+       ├── nodemon@1.19.1
+       ├── tz-lookup@6.1.18
+       └── tzwhere@1.0.1
+       
