@@ -19,7 +19,7 @@
     "body-parser": "^1.17.x",
     "cfenv": "^1.0.x",
     "cloudant-quickstart": "^1.25.5",
-    "csv-parse": "^4.4.3",
+    "csv-parse": "^4.4.6",
     "csvtojson": "^2.0.8",
     "date-diff": "^0.2.1",
     "dotenv": "^4.0.0",
