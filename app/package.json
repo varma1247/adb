@@ -23,7 +23,7 @@
     "csvtojson": "^2.0.8",
     "date-diff": "^0.2.1",
     "dotenv": "^4.0.0",
-    "express": "^4.15.x",
+    "express": "^4.17.x",
     "geo-tz": "^5.0.4",
     "geolib": "^3.0.3",
     "mongodb": "^3.0.10",
